@@ -1,0 +1,30 @@
+{
+  "name": "fix-fstream-npm-paths",
+  "description": "Fixes the file paths produced by fstream-npm 1.x",
+  "keywords": [],
+  "version": "0.1.0",
+  "author": "Braveg1rl <braveg1rl@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/braveg1rl/fix-fstream-npm-paths",
+  "bugs": "https://github.com/braveg1rl/fix-fstream-npm-paths/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/braveg1rl/fix-fstream-npm-paths.git"
+  },
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "^1.12.2",
+    "mocha": "^3.2.x"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "6.x.x"
+  },
+  "main": "lib/fix-fstream-npm-paths.js",
+  "scripts": {
+    "prepublish": "npm test",
+    "pretest": "make build",
+    "test": "make test"
+  }
+}
