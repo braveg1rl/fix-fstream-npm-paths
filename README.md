@@ -1,5 +1,7 @@
 # fix-fstream-npm-paths [![Build Status](https://travis-ci.org/braveg1rl/fix-fstream-npm-paths.png?branch=master)](https://travis-ci.org/braveg1rl/fix-fstream-npm-paths) [![Dependency Status](https://david-dm.org/braveg1rl/fix-fstream-npm-paths.png)](https://david-dm.org/braveg1rl/fix-fstream-npm-paths)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/braveg1rl/fix-fstream-npm-paths.svg)](https://greenkeeper.io/)
+
 Fixes the file paths produced by fstream-npm 1.x
 
 ## Usage
